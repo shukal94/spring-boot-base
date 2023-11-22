@@ -9,8 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootClassicApplication {
 
 	public static void main(String[] args) {
-		log.info("HELLO!!!");
 		SpringApplication.run(SpringBootClassicApplication.class, args);
+		log.info("Again, spring boot includes a bunch of the external stuff, which is fully compatible with each other, " +
+				"so we won't need to include a lot of things as the dependency");
 	}
 
 }
